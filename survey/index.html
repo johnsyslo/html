@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Survey</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Survey</h1>
+
+    <form>
+        <!-- Text Inputs -->
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="mail" id="label-email">Email</label>
+            <input type="email" id="mail" placeholder="Enter your email" />
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="text" id="age" placeholder="Enter your age" />
+        </div>
+
+        <!-- Dropdown -->
+        <div class="form-control">
+            <label for="role" id="label-role">What role best describes you?</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Radio Button -->
+        <div class="form-control">
+            <label>Would you like to do something?</label>
+
+            <label for="test-1">
+                <input type="radio" id="test-1" name="test">Yes</input>
+            </label>
+            <label for="test-2">
+                <input type="radio" id="test-2" name="test">Maybe</input>
+            </label>
+            <label for="test-3">
+                <input type="radio" id="test-3" name="test">No</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+			<label>What is your favorite day?</label>
+
+			<label for="inp-1">
+				<input type="checkbox" name="inp">Sunday</input>
+            </label>
+			<label for="inp-2">
+				<input type="checkbox" name="inp">Monday</input>
+            </label>
+			<label for="inp-3">
+				<input type="checkbox" name="inp">Tuesday</input>
+            </label>
+			<label for="inp-4">
+				<input type="checkbox"name="inp">Wednesday</input>
+            </label>
+			<label for="inp-5">
+				<input type="checkbox" name="inp">Thursday</input>
+            </label>
+			<label for="inp-6">
+				<input type="checkbox" name="inp">Friday</input>
+            </label>
+			<label for="inp-7">
+				<input type="checkbox" name="inp">Saturday</input>
+            </label>
+		</div>
+
+        <!-- Text Input -->
+        <div class="form-control">
+            <label for="comment" id="label-name">Comments</label>
+            <textarea id="text" id="message"></textarea>
+        </div>
+
+        <button class="submit">Submit</button>
+    </form>
+</body>
+</html>
