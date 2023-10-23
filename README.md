@@ -3,6 +3,11 @@
     <p>A repo of me doing different things.</p>
 </div>
 
+<div align="center">
+    <img alt="latest commit" src="https://img.shields.io/github/last-commit/johnsyslo/html?style=for-the-badge&color=eb7c77">
+    <img alt="license" src="https://img.shields.io/github/license/johnsyslo/html?style=for-the-badge&color=eb7c77">
+</div>
+
 ### Description
 Here you can find a bunch of random HTML pages with different things, some better than others.. feel free to contribute/help me improve, I need help..!
 
