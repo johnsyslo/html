@@ -1,0 +1,31 @@
+
+body {
+    background-color: linen;
+}
+
+.container {
+    max-width: 90%;
+    width: 50vw;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+    font-family: 'Pacifico', cursive;
+    margin: 35px auto 20px;
+}
+
+hr {
+    margin: auto;
+    padding-top: 2px;
+    background-color: black;
+    width: 50%;
+}
+
+input {
+    margin: 0 auto; 
+    border: 1px solid black
+}
